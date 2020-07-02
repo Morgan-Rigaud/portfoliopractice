@@ -23,8 +23,8 @@ body {
     font: normal 300 18px var(--font-js);
 }
 
-.font-ram{
-    font: normal bold 18px var (--font-ram);
+.font-chelsea{
+    font: normal bold 18px var(--font-chelsea);
 }
 
 .font-size-40 {
@@ -74,6 +74,7 @@ body {
     margin: .7rem 1rem;
     border-bottom: 1px solid var(--color-border);
     text-transform: uppercase;
+    font-family: var(--font-js);
 }
 
 #header .nav-link:hover{
@@ -95,7 +96,7 @@ body {
 
 /* home section css */
 .site-banner    .banner-area{
-    background: url("./assets/maria-shkliaeva-cPyk1WR4D8g-unsplash.jpg")
+    background: url("./assets/maria-shkliaeva-cPyk1WR4D8g-unsplash.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -115,7 +116,7 @@ body {
     border-radius: 50%;
     margin: auto;
     background: url("./assets/morgan_rigaud.jpg") no-repeat;
-    background-size: 200%;
+    background-size: 100%;
     background-position: 50% 0;
 }
 
@@ -128,8 +129,33 @@ body {
     }
 }
 
-.card{
-    background-color: #89bbfe;
-    font: var(--font-js)
+.sections h2{
+    font-family: var(--font-museo);
+    padding: 10px;
+    margin: 10px;
 }
+
+.sections ul{
+    border-width: 0px;
+}
+
+.sections .card{
+    border-width: 0px;
+}
+
+.list-group-item {
+    background-color: #89bbfe;
+    font-family: var(--font-js);
+}
+
+.logo {
+    width: 50px;
+    height:  50px;
+    border-radius: 50%;
+    margin: auto;
+    background: url("./assets/html5-png.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 0;
+}
+
 
