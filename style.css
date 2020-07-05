@@ -134,6 +134,12 @@ body {
     padding: 10px;
     margin: 10px;
 }
+.sections h3{
+    font-family: var(--font-js);
+    color: #615d6cff;
+    padding: 10px;
+    margin: 10px;
+}
 
 .sections ul{
     border-width: 0px;
@@ -156,6 +162,12 @@ body {
     background: url("./assets/html5-png.jpg") no-repeat;
     background-size: 100%;
     background-position: 50% 0;
+}
+.col-sm{
+    font-family: var(--font-js);
+    color: #615d6cff;
+    padding: 5px;
+    margin: 5px;
 }
 
 
